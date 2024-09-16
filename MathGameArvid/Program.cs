@@ -167,6 +167,7 @@ namespace MathGameArvid
         }
         public static void VisaHistorik()
         {
+            Console.WriteLine("Historik korrekta svar");
             Console.WriteLine(string.Join("\n", GameHistory));
             Console.WriteLine($"Du har fått {antalRattHistory} frågor rätt av {antalFragor} och du har {points} poäng.");
         }
